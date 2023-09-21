@@ -250,12 +250,36 @@
 	background: #000;
 	padding: 10px !important;
 }
-
-
-
-
-
-
+.modal-menu .ri-close-circle-line{
+	text-align: right;
+	color: #fff;
+	opacity: unset !important;
+}
+.form-menu-table .form-control{
+	padding: 11px;
+	background: #101418;
+}
+.form-menu-table{
+	margin-top: 20px;
+}
+.form-menu-table .date{
+	padding: 11px;
+	background: #101418;
+	color: #6a6f75;
+	width: 100%;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+}
+.resturent-btn{
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 8px 10px !important;
+	border-radius: 4px !important;
+	background: #c6a87d !important;
+}
+.choose-rst{
+	padding-bottom: 15px;
+}
 
 
 

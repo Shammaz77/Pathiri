@@ -23,3 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Automatically switch testimonials every 5 seconds
     setInterval(nextTestimonial, 4000);
 });
+
+
+function toggleCartt(){
+    document.querySelector('.sidebar').classList.toggle('open-cart');
+    }

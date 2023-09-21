@@ -123,6 +123,91 @@ h5 {
 }
 
 
+/* sidebar  */
+
+
+/* sidebar code */
+.sidebar{
+	width: 90%;
+	min-width: 270px;
+	max-width: 320px;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	overflow:auto !important;
+	right: -320px;
+	z-index: 20;
+	transition: 0.2s ease;
+	background: #000000;
+	color: #000;
+}
+.sidebar .closse i{
+	font-size: 28px;
+	color: #ffffff;
+}
+.open-cart{
+	right: 0px !important;
+}
+.open-cartt{
+	display:none;
+}
+.open-cart:before{
+	content: '';
+	position: fixed;
+	top: 0px;
+	height: 70vh;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	pointer-events: none;
+	z-index: -1;
+}
+.navbar-sidebar {
+	padding: 25px;
+	margin-top: 45px;
+}
+.navbar-sidebar ul li{
+	list-style: none;
+	background: #c6a87d;
+	padding: 8px 15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	font-weight: 500;
+}
+.navbar-sidebar ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.navbar-sidebar ul{
+    padding: 0;
+}
+.sidebar .closse{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	color: #000000;
+}
+.sidebar .active {
+	color: rgb(255, 255, 255);
+}
+.modal-home .ri-close-circle-line {
+	text-align: right;
+	font-weight: 500;
+}
+.our-vsn-txt{
+	color: rgb(255, 255, 255);
+	padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

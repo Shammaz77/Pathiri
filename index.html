@@ -18,17 +18,32 @@
 				<div class="item-navs">
 					<ul class="mb-0">
 						<li class="text-white item-nav"><a href="./index.html">Home</a></li>
-						<li class="text-white item-nav"><a href="./about.html">About</a></li>
+						<li class="text-white item-nav"><a href="./about.html">About Us</a></li>
 						<li class="text-white item-nav"><a href="./menu.html">Menu</a></li>
 						<li class="text-white item-nav"><a href="./gallery.html">Gallery</a></li>
 						<li class="text-white item-nav"><a href="./contact.html">Contact</a></li>
-						<a href="#" class="btn btn-menu text-white primary-bg">Book a Table</a>
+						<a href="#" class="btn btn-menu text-white primary-bg" data-toggle="modal" data-target="#loginModal">Book a Table</a>
 						<div class="menulogo d-md-block d-lg-none" onclick="toggleCartt()">
 							<i class="ri-menu-3-line"></i>
 						</div>
 					</ul>
 				</div>
 			</div>
+		</div>
+		<!-- sidebar  -->
+		<div class="sidebar">
+			<div class="navbar-sidebar">
+				<ul>
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a class="active" href="./menu.html">Menu</a></li>    
+					<li><a class="active" href="./about.html">About Us</a></li>    
+					<li><a class="active" href="./gallery.html">Gallery</a></li>  
+					<li><a class="active" href="./contact.html">Contact Us</a></li> 
+					<a href="#" style="width: 100%;" class="btn btn-menu text-white primary-bg" data-toggle="modal" data-target="#loginModal">Book a Table</a>    
+					<a href="#" style="width: 100%;" class="btn explore-btn-banner text-white mt-3" data-toggle="modal" data-target="#loginModalselect">Select Resturent</a>
+				</ul>
+			</div>
+			<div class="d-inline closse" onclick="toggleCartt()"><i class="ri-close-circle-line"></i></div>
 		</div>
 		<!-- banner slider  -->
 		<div id="customCarousel" class="carousel slide">
@@ -39,7 +54,7 @@
 							<h4 class="text-center small-text-banner primary-color">MAKE A ORDER</h4>
 							<h1 class="mb-0 text-white text-center banner-main-text">Experiencem The Best Only <br> Taste of Italy</h1>
 							<p class="text-center text-white bottom-small-text">Mistake Idea Of Denucing  And Parsing Pain</p>
-							<a href="#" class="btn explore-btn-banner text-white">Read More <i class="ri-arrow-right-s-line"></i></a>
+							<a href="#" class="btn explore-btn-banner text-white" data-toggle="modal" data-target="#loginModalselect">Read More <i class="ri-arrow-right-s-line"></i></a>
 						</div>
 					</div>
 				</div>
@@ -442,11 +457,62 @@
 
 
 
+<!-- modal  -->
+<div style="z-index: 1200;"  class="modal fade modal-home modal-menu" id="loginModalselect" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" style="padding: 0px;" role="document">
+		<div style="background: #000000 ;width: 100%;border-radius: 10px;margin: auto;padding: 10px;" class="modal-content login-modal-home-p">
+			<i class="ri-close-circle-line close" data-dismiss="modal" aria-label="Close"></i>
+			<div class="modal-body modal-loginform pt-0">
+				<div class="form-menu-table">
+					<h3 class="text-white choose-rst">Choose Resturent:</h3>
+					<a href="#" class="btn resturent-btn text-white">White House Resturent, Calicut</a>
+					<a href="#" class="btn resturent-btn text-white">Le Meredian Resturent, Kochi</a>
+				</div>
+			</div>
+		</div>                                    
+	</div>              
+</div>
+<!-- modal end  -->
 
 
-
-
-
+<!-- modal  -->
+	<div style="z-index: 1200;"  class="modal fade modal-home modal-menu" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" style="padding: 0px;" role="document">
+			<div style="background: #000000 ;width: 100%;border-radius: 10px;margin: auto;padding: 10px;" class="modal-content login-modal-home-p">
+				<i class="ri-close-circle-line close" data-dismiss="modal" aria-label="Close"></i>
+				<div class="modal-body modal-loginform pt-0">
+					<div class="form-menu-table">
+						<form>
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
+							</div>
+						</form>
+						<form>
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Phone">
+							</div>
+						</form>
+						<form>
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Persons">
+							</div>
+						</form>
+						<form>
+							<div class="form-group">
+								<input class="date"  type="date" id="datepicker" name="datepicker">							</div>
+						</form>
+						<form>
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Time">
+							</div>
+						</form>
+						<a href="" type="submit" style="width: max-content;" class="btn explore-btn-banner text-white">Book Table</a>
+					</div>
+				</div>
+			</div>                                    
+		</div>              
+	</div>
+	<!-- modal end  -->
 		<footer>
 			<div class="container-main mt-5">
 				<div class="row">
