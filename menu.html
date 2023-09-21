@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pathiri Resturent</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/pathiri.css">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+		<div class="container-main">
+			<div class="headers">
+				<div class="logo-navbar">
+					<img class="logo-nav" src="./images/Millennium_logo.png" alt="">
+				</div>
+				<div class="item-navs">
+					<ul class="mb-0">
+						<li class="text-white item-nav"><a href="./index.html">Home</a></li>
+						<li class="text-white item-nav"><a href="./about.html">About</a></li>
+						<li class="text-white item-nav"><a href="./menu.html">Menu</a></li>
+						<li class="text-white item-nav"><a href="./gallery.html">Gallery</a></li>
+						<li class="text-white item-nav"><a href="./contact.html">Contact</a></li>
+						<a href="#" class="btn btn-menu text-white primary-bg">Book a Table</a>
+						<div class="menulogo d-md-block d-lg-none" onclick="toggleCartt()">
+							<i class="ri-menu-3-line"></i>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- banner main  -->
+		<div class="banner-brudcumb-main" style="background-image: url('./images/about-banner.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;">
+			<div class="container-main">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="banner-page-name-dv">
+							<h1 class="mb-0 text-white banner-page-name-txt">Menu</h1>
+							<p class="brudcumb-txt mb-0 primary-color">Home > Menu</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner main  end -->
+		<!-- menu div  -->
+		<div class="container-main">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="menu-dv option-menu">
+						<h1 class="primary-color mb-0 try-txt">Recomended</h1>
+						<form class="option-select-product" action="">
+							<select name="products" id="products">
+								<option value="volvo">Sort By</option>
+								<option value="saab">Veg</option>
+								<option value="opel">Non - Veg</option>
+							</select>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-1.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Chiken</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-2.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Burger</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+				</div>
+				<div class="col-lg-6">
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-1.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Chiken</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-2.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Burger</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+				</div>
+				<div class="col-lg-12">
+					<div class="menu-dv">
+						<h1 class="primary-color mb-0 try-txt">Spicy</h1>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-1.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Chiken</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-2.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Burger</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+				</div>
+				<div class="col-lg-6">
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-1.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Chiken</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-2.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Burger</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+				</div>
+				<div class="col-lg-12">
+					<div class="menu-dv">
+						<h1 class="primary-color mb-0 try-txt">Veg</h1>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-1.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Chiken</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-2.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Burger</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+				</div>
+				<div class="col-lg-6">
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-1.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Chiken</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/services-2.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Burger</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+					<div class="menu-box">
+						<div class="box-main-menu">
+							<div class="left-item-box-sub">
+								<div class="menu-img-dv">
+									<img class="menu-item-img" src="./images/service-3.png" alt="">
+								</div>
+								<div class="item-name-dv">
+									<h3 class="menu-item-name mb-0 text-white">Sandwitch</h3>
+									<p class="menu-item-sub mb-0 text-white">Fresh Item Served</p>
+								</div>
+							</div>
+						</div>
+						<div class="border-dv"></div>
+						<div class="rate-div-menu">
+							<h3 class="rate mb-0">₹650</h3>
+						</div>
+					</div>
+					<!-- ==================== -->
+				</div>
+			</div>
+		</div>
+		<!-- menu div end  -->
+		<footer>
+			<div class="container-main mt-5">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-main-box">
+							<img class="logo-footer" src="./images/Millennium_logo.png" alt="">
+							<p class="txt-footer mb-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget rhoncus consectetur enim.</p>
+							<div class="footer-icon">
+								<i class="ri-facebook-fill"></i>
+								<i class="ri-instagram-fill"></i>
+								<i class="ri-twitter-fill"></i>
+								<i class="ri-linkedin-fill"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-main-box">
+							<h3 class="mb-0 text-white footer-head">Use Full Link</h3>
+							<ul>
+								<li class="mb-0 footer-list">Contact Us</li>
+								<li class="mb-0 footer-list">Menu</li>
+								<li class="mb-0 footer-list">About Us</li>
+								<li class="mb-0 footer-list">Gallery</li>
+								<li class="mb-0 footer-list">Home</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-main-box">
+							<h3 class="mb-0 text-white footer-head">Contact Us</h3>
+							<ul>
+								<li class="mb-0 footer-list"> +1800-001-658</li>
+								<li class="mb-0 footer-list"> peacefulqode@gmail.com</li>
+								<li class="mb-0 footer-list">Themeforest, Envato HQ 24 Fifthst., Los Angeles, USA</li>
+							</ul>
+						</div>
+					</div> 
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-main-box">
+							<h3 class="mb-0 text-white footer-head">Opening Hours</h3>
+							<ul>
+								<li class="mb-0 footer-list">Mon - Tue09.00 am - 10.00 pm</li>
+								<li class="mb-0 footer-list">Wed - Thu	10.00am - 11.00pm</li>
+								<li class="mb-0 footer-list">Sat 07.00am - 08.00pm</li>
+								<li class="mb-0 footer-list">Sun	9:00 am - 8 Pm</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="footer-copy mt-3">
+			<p class="copy-txt mb-0 text-white text-center" >Designed And Developed By  <a target="_blank" href="https://erebsglobal.com/"> ERE Business Solutions</a></p>
+		</div>
+	<script src="./js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
