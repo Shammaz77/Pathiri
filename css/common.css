@@ -204,25 +204,26 @@ h5 {
 
 
 
+/* Target the middle slide and override the width */
+.slick-slide.slick-active {
+	
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.slider{
+	cursor: pointer !important;
+}
+.slick-slide {
+	margin: 0px 20px;
+}
+.slick-slide img {
+	width: 100%;
+	transition: all 0.4s ease-in-out;
+}
+.slick-center {
+	transform: scale(1.1);
+}
