@@ -23,6 +23,7 @@
 						<li class="text-white item-nav"><a href="./menu.html">Menu</a></li>
 						<li class="text-white item-nav"><a href="./gallery.html">Gallery</a></li>
 						<li class="text-white item-nav"><a href="./contact.html">Contact</a></li>
+						<li class="text-white item-nav primary-bg location-btn" style="display: flex;" data-toggle="modal" data-target="#loginModalselect"><i class="ri-map-pin-line"></i> You are in</li>
 						<a href="#" class="btn btn-menu text-white primary-bg" data-toggle="modal" data-target="#loginModal">Book a Table</a>
 						<div class="menulogo d-md-block d-lg-none" onclick="toggleCartt()">
 							<i class="ri-menu-3-line"></i>
@@ -48,34 +49,40 @@
 		</div>
 		<!-- banner slider  -->
 		<div id="customCarousel" class="carousel slide">
-			<div class="carousel-inner">
-				<div class="carousel-item active " style="background-image: url('./images/banner-main.png');background-position: center;background-repeat: no-repeat;background-size: cover;">
-					<div class="container-main">
-						<div class="banner-content">
-							<h4 class="text-center small-text-banner primary-color">MAKE A ORDER</h4>
-							<h1 class="mb-0 text-white text-center banner-main-text">Experiencem The Best Only <br> Taste of Italy</h1>
-							<p class="text-center text-white bottom-small-text">Mistake Idea Of Denucing  And Parsing Pain</p>
-							<a href="#" class="btn explore-btn-banner text-white" data-toggle="modal" data-target="#loginModalselect">Read More <i class="ri-arrow-right-s-line"></i></a>
+			<div class="carousel-inner ">
+				<div class="carousel-item active "  style="background-image: url('./images/res.avif');background-position: center;background-repeat: no-repeat;background-size: cover;">
+					<div class="overlay overlay_2">
+						<div class="container-main ">
+							<div class="banner-content">
+								<h4 class="text-center small-text-banner primary-color">MAKE A ORDER</h4>
+								<h1 class="mb-0 text-white text-center banner-main-text">Experiencem The Best Only <br> Taste of Italy</h1>
+								<p class="text-center text-white bottom-small-text">Mistake Idea Of Denucing  And Parsing Pain</p>
+								<a href="#" class="btn explore-btn-banner text-white" data-toggle="modal" data-target="#loginModalselect">Read More <i class="ri-arrow-right-s-line"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url('./images/c.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;"">
+					<div class="overlay overlay_2">
+						<div class="container-main ">
+							<div class="banner-content">
+								<h4 class="text-center small-text-banner primary-color">MAKE A ORDER</h4>
+								<h1 class="mb-0 text-white text-center banner-main-text">Experiencem The Best Only <br> Taste of Italy</h1>
+								<p class="text-center text-white bottom-small-text">Mistake Idea Of Denucing  And Parsing Pain</p>
+								<a href="#" class="btn explore-btn-banner text-white" data-toggle="modal" data-target="#loginModalselect">Read More <i class="ri-arrow-right-s-line"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item" style="background-image: url('./images/banner-main.png');background-position: center;background-repeat: no-repeat;background-size: cover;"">
-					<div class="container-main">
-						<div class="banner-content">
-							<h4 class="text-center small-text-banner primary-color">MAKE A ORDER</h4>
-							<h1 class="mb-0 text-white text-center banner-main-text">Experiencem The Best Only <br> Taste of Italy</h1>
-							<p class="text-center text-white bottom-small-text">Mistake Idea Of Denucing  And Parsing Pain</p>
-							<a href="#" class="btn explore-btn-banner text-white">Read More <i class="ri-arrow-right-s-line"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item" style="background-image: url('./images/banner-main.png');background-position: center;background-repeat: no-repeat;background-size: cover;"">
-					<div class="container-main">
-						<div class="banner-content">
-							<h4 class="text-center small-text-banner primary-color">MAKE A ORDER</h4>
-							<h1 class="mb-0 text-white text-center banner-main-text">Experiencem The Best Only <br> Taste of Italy</h1>
-							<p class="text-center text-white bottom-small-text">Mistake Idea Of Denucing  And Parsing Pain</p>
-							<a href="#" class="btn explore-btn-banner text-white">Read More <i class="ri-arrow-right-s-line"></i></a>
+					<div class="overlay overlay_2">
+						<div class="container-main ">
+							<div class="banner-content">
+								<h4 class="text-center small-text-banner primary-color">MAKE A ORDER</h4>
+								<h1 class="mb-0 text-white text-center banner-main-text">Experiencem The Best Only <br> Taste of Italy</h1>
+								<p class="text-center text-white bottom-small-text">Mistake Idea Of Denucing  And Parsing Pain</p>
+								<a href="#" class="btn explore-btn-banner text-white" data-toggle="modal" data-target="#loginModalselect">Read More <i class="ri-arrow-right-s-line"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -506,15 +513,17 @@
 				<div class="form-menu-table">
 					<h3 class="text-white choose-rst mb-0" style="display: flex;align-items: center;"><i style="margin-right: 10px;" class="ri-map-pin-2-line"></i> You are in</h3>
 					<div class="img-select">
-						<div class="image-container" id="image1-container">
-							<img id="image1" src="./images/galler.jpg" alt="Image 1">
-							<div class="checkmark"><i class="ri-check-double-line text-white"></i></div>
-							<h4 class="rest-name text-white text-center mb-0">Le Meridian Kochi</h4>
-							<p class="sub-addrss mb-0">Envato HQ 24 Fifthst., Los Angeles, USA</p>
+						<div class="image-container " id="image1-container">
+								<img id="image1" src="./images/galler.jpg" alt="Image 1">
+								<div class="checkmark"><i class="ri-check-double-line text-white"></i></div>
+								<div class="overlays"></div>
+								<h4 class="rest-name text-white text-center mb-0 ">Le Meridian Kochi</h4>
+								<p class="sub-addrss mb-0">Envato HQ 24 Fifthst., Los Angeles, USA</p>
 						</div>
 						<div class="image-container" id="image2-container">
 							<img id="image2" src="./images/galler.jpg" alt="Image 1">
 							<div class="checkmark"><i class="ri-check-double-line text-white"></i></div>
+							<div class="overlays"></div>
 							<h4 class="rest-name text-white text-center mb-0">Hotel Le Hayath</h4>
 							<p class="sub-addrss mb-0">Envato HQ 24 Fifthst., Los Angeles, USA</p>
 						</div>
